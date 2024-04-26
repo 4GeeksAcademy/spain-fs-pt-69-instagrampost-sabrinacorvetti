@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: white;
+}
+
+.black-background {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+.white-container {
+    background-color: white;
+    color: black;
+    text-align: center; 
+    padding: 20px; 
+    border-radius: 0px; 
+    position: relative; 
+    max-width: 310px; 
+    align-content: center;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.icon-container-bottom-left{
+    font-size:25px;
+}
+
+.paragraphs {
+    text-align: left;
+    padding: 0 0px;
+    margin-top: 20px; 
+}
+
+.paragraphs p {
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+img{
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.primericono{
+    display:flex;
+    margin-right:10px;
+    margin-top: 4px;
+    margin-left: 0px;
+}
+.derecha{
+    display:flex;
+}
+
+.izquierda{
+    display:flex;
+    
+}
+
+.span{
+    font-weight: bold;
+}
+
+#nombre{
+    font-size:15px;
+}
